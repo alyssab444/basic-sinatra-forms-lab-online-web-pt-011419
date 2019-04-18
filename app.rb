@@ -15,6 +15,7 @@ class App < Sinatra::Base
     @sf = params["sf"]
     @c = params["c"]
     erb :team
+    
   end 
 
 
